@@ -86,7 +86,7 @@ door3.onclick = () => {
 }
 
 startButton.onclick = () => {
-    startRound();
+     if (currentlyPlaying === false) {startRound()};
 }
 
 const startRound = () => {
